@@ -15,6 +15,8 @@ The application can be accessed live via the following link:
   - Allows users to authenticate via the Reqres API.
   - Validates user credentials and redirects to the user dashboard upon successful login.
   - If authentication fails, an error message is displayed.
+  - ![image](https://github.com/user-attachments/assets/b7542afd-3213-4a60-80a8-ea1ee3de8571)
+
 
 ### **2. User Management**
 
@@ -24,17 +26,27 @@ The application can be accessed live via the following link:
   - The `page` query parameter is used to track the current page (`users?page=1`, `users?page=2`, etc.).
   - Implements client-side search and filtering to find users by their `first_name`, `last_name`, or `email`.
   - A `Previous` button disables when on the first page, and a `Next` button disables if no more users are available for the next page.
+    ![image](https://github.com/user-attachments/assets/b7696656-2d04-4d8f-bab6-5bbe2798ad4a)
+
+    Filtering
+    ![image](https://github.com/user-attachments/assets/a6f29d96-c879-4cc4-9665-9e3dfb317a0c)
+
+
 
 - **Edit User Details**:
 
   - Allows users to update their `first_name`, `last_name`, and `email` via a form.
   - After editing, an API call is made to update the user data, and the user is redirected back to the user list.
   - Displays an error message if the update fails.
+    ![image](https://github.com/user-attachments/assets/93b67130-664c-4692-a5f2-2991d676e1bc)
+
 
 - **Delete Users**:
   - Provides a button for deleting a user from the list.
   - Once deleted, the list is updated automatically without a page reload.
   - A confirmation message is shown when the delete action is successful or fails.
+  - ![image](https://github.com/user-attachments/assets/aeb3b0c9-a6d3-456e-adba-ad970ec634f0)
+
 
 ### **3. Responsive Design**
 
