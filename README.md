@@ -60,7 +60,7 @@ git clone <repository-url>
 cd employwise-assignment
 npm install
 
-
+```
 src/
 ├── components/
 │   ├── Login.jsx        # Handles user authentication and login page UI
@@ -122,4 +122,4 @@ src/
    - **React Router**: I used **React Router** to enable navigation between different pages (Login, User List, and Edit User).
    - **Hosting**: The project is deployed on **Heroku** (or any other free server like Netlify, Vercel) to make it publicly accessible. The link to the deployed app is provided in the README file.
    - The filtering feature uses the `filter()` method on the user data array to display users whose name or email matches the search query. This filtering is applied every time the user types in the search bar, and the UI dynamically updates to show the filtered list.
-```
+
